@@ -148,6 +148,21 @@
 			</collision>
 		</link>
 
+		<gazebo>
+			<joint name="${name}_inner_joint_gearbox" type="gearbox">
+			<parent>${name}_knuckle_link</parent>
+			<child>${name}_proximal_link</child>
+			<gearbox_ratio>-1.0</gearbox_ratio>
+			<gearbox_reference_body>${name}_fake_link1</gearbox_reference_body>
+			<axis>
+				<xyz>0.0 -1.0 0.0</xyz>
+			</axis>
+			<axis2>
+				<xyz>0.0 -1.0 0.0</xyz>
+			</axis2>
+			</joint>
+		</gazebo>
+
 		<!-- MIDDLE PHALANGE -->
 		<joint name="${name}_middle_joint" type="revolute">
 			<origin xyz="0.009 0 0" rpy="0 0 0" />
@@ -178,6 +193,7 @@
 				<mimic joint="${parent_name}_synergy_joint" multiplier="${middle_R}"/>
 			</xacro:if>
 		</joint>
+
 		<link name="${name}_middle_link">
 			<inertial>
 				<insert_block name="phalanx_inertia"/>
@@ -194,6 +210,21 @@
 				</geometry>
 			</collision>
 		</link>
+
+		<gazebo>
+			<joint name="${name}_middle_joint_gearbox" type="gearbox">
+			<parent>${name}_proximal_link</parent>
+			<child>${name}_middle_link</child>
+			<gearbox_ratio>-1.0</gearbox_ratio>
+			<gearbox_reference_body>${name}_fake_link2</gearbox_reference_body>
+			<axis>
+				<xyz>0.0 -1.0 0.0</xyz>
+			</axis>
+			<axis2>
+				<xyz>0.0 -1.0 0.0</xyz>
+			</axis2>
+			</joint>
+		</gazebo>
 
 		<!-- DISTAL PHALANGE -->
 		<joint name="${name}_outer_joint" type="revolute">
@@ -225,6 +256,7 @@
 				<mimic joint="${parent_name}_synergy_joint" multiplier="${outer_R}"/>
 			</xacro:if>
 		</joint>
+
 		<link name="${name}_distal_link">
 			<inertial>
 				<insert_block name="fingertip_inertia"/>
@@ -241,6 +273,21 @@
 				</geometry>
 			</collision>
 		</link>
+
+		<gazebo>
+			<joint name="${name}_outer_joint_gearbox" type="gearbox">
+			<parent>${name}_middle_link</parent>
+			<child>${name}_distal_link</child>
+			<gearbox_ratio>-1.0</gearbox_ratio>
+			<gearbox_reference_body>${name}_fake_link3</gearbox_reference_body>
+			<axis>
+				<xyz>0.0 -1.0 0.0</xyz>
+			</axis>
+			<axis2>
+				<xyz>0.0 -1.0 0.0</xyz>
+			</axis2>
+			</joint>
+		</gazebo>
 
 	</xacro:macro>
 
@@ -373,6 +420,21 @@
 			</collision>
 		</link>
 
+		<gazebo>
+			<joint name="${name}_inner_joint_gearbox" type="gearbox">
+			<parent>${name}_knuckle_link</parent>
+			<child>${name}_proximal_link</child>
+			<gearbox_ratio>-1.0</gearbox_ratio>
+			<gearbox_reference_body>${name}_fake_link1</gearbox_reference_body>
+			<axis>
+				<xyz>0.0 -1.0 0.0</xyz>
+			</axis>
+			<axis2>
+				<xyz>0.0 -1.0 0.0</xyz>
+			</axis2>
+			</joint>
+		</gazebo>
+
 		<!-- DISTAL PHALANGE -->
 		<joint name="${name}_outer_joint" type="revolute">
 			<origin xyz="0.009 0 0.0" rpy="0 0 0" />
@@ -403,6 +465,7 @@
 				<mimic joint="${parent_name}_synergy_joint" multiplier="${outer_R}" />
 			</xacro:if>
 		</joint>
+
 		<link name="${name}_distal_link">
 			<inertial>
 				<insert_block name="fingertip_inertia"/>
@@ -419,6 +482,21 @@
 				</geometry>
 			</collision>
 		</link>
+
+		<gazebo>
+			<joint name="${name}_outer_joint_gearbox" type="gearbox">
+			<parent>${name}_proximal_link</parent>
+			<child>${name}_distal_link</child>
+			<gearbox_ratio>-1.0</gearbox_ratio>
+			<gearbox_reference_body>${name}_fake_link3</gearbox_reference_body>
+			<axis>
+				<xyz>0.0 -1.0 0.0</xyz>
+			</axis>
+			<axis2>
+				<xyz>0.0 -1.0 0.0</xyz>
+			</axis2>
+			</joint>
+		</gazebo>
 	</xacro:macro>
 
 	<!-- SOFT HAND MODEL -->

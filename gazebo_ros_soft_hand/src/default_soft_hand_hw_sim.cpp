@@ -720,6 +720,7 @@ void DefaultSoftHandHWSim::writeSim(ros::Time time, ros::Duration period)
         break;
     }
 
+    /* NOT NEEDED AS WE ARE NOW USING GEARBOXES FOR THE MIMIC JOINTS
     // mirror command values to mimic joints
       if( j==1 || j==2 || 
         j==4 || j==5 || j==6 || 
@@ -730,13 +731,16 @@ void DefaultSoftHandHWSim::writeSim(ros::Time time, ros::Duration period)
       joint_position_command_mimic_[j_mimic] = joint_position_[j];
       j_mimic++;
     }
+    */
   }
 
+  /* NOT NEEDED AS WE ARE NOW USING GEARBOXES FOR THE MIMIC JOINTS
   // mimic joints simulation control (only position mirrored from the adative joints)
   for(unsigned int j=0; j < n_mimic_; ++j)
   {
     sim_joints_mimic_[j]->SetPosition(0, joint_position_command_mimic_[j]);
   }
+  */
 }
 
 // Register the limits of the joint specified by joint_name and\ joint_handle. The limits are
