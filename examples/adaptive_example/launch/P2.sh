@@ -1,6 +1,6 @@
 ./move_hand_P2_up.sh
 ./open_hand.sh
-sleep 4
+sleep 8
 ./move_hand_P2.sh
 sleep 4
 ./close_hand.sh 0.6
