@@ -1,8 +1,9 @@
 ./move_hand_P2_up.sh
 ./open_hand.sh
+sleep 4
 ./move_hand_P2.sh
 sleep 4
-./close_hand.sh 0.9
+./close_hand.sh 0.6
 sleep 5
 echo "Finished closing"
 rostopic echo -n 1 /clock > timing.txt
