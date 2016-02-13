@@ -1,4 +1,4 @@
-#rosrun tf2_ros static_transform_publisher -.23 -.06 0.15 0.49 0.49 .49 0.5 world box_desired
+#rosrun tf2_ros static_transform_publisher -.24 .0 0.30 0.0 0.7068 0.0 0.7074 world box_desired
 rostopic pub --once /tf_static tf/tfMessage "transforms:
 - header:
     seq: 0
@@ -11,7 +11,7 @@ rostopic pub --once /tf_static tf/tfMessage "transforms:
     translation:
       x: -0.095
       y: -0.165
-      z: 0.18
+      z: 0.30
     rotation:
       x: -0.3697428141890589
       y: 0.6025857997014756
