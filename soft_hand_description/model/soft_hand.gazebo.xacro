@@ -62,10 +62,10 @@
 			</sensor>
 			<!--selfCollide>true</selfCollide-->
 			<gravity>true</gravity>
-			<mu1>500.0</mu1>
-			<mu2>500.0</mu2>
-			<kp>10000000.0</kp>
-			<kd>1.0</kd>
+			<mu1>1.5</mu1>
+			<mu2>1.5</mu2>
+			<kp>1000000.0</kp>
+			<kd>100.0</kd>
 		</gazebo>
 
 		<gazebo reference="${name}_thumb_knuckle_link">
@@ -87,10 +87,10 @@
 			</sensor>
 			<!--selfCollide>true</selfCollide-->
 			<gravity>true</gravity>
-			<mu1>500.0</mu1>
-			<mu2>500.0</mu2>
-			<kp>10000000.0</kp>
-			<kd>1.0</kd>
+			<mu1>1.5</mu1>
+			<mu2>1.5</mu2>
+			<kp>1000000.0</kp>
+			<kd>100.0</kd>
 		</gazebo>
 
 		<gazebo reference="${name}_thumb_proximal_link">
@@ -112,10 +112,10 @@
 			</sensor>
 			<!--selfCollide>true</selfCollide-->
 			<gravity>true</gravity>
-			<mu1>500.0</mu1>
-			<mu2>500.0</mu2>
-			<kp>10000000.0</kp>
-			<kd>1.0</kd>
+			<mu1>1.5</mu1>
+			<mu2>1.5</mu2>
+			<kp>1000000.0</kp>
+			<kd>100.0</kd>
 		</gazebo>
 
 		<gazebo reference="${name}_thumb_distal_link">
@@ -137,10 +137,10 @@
 			</sensor>
 			<!-- selfCollide>true</selfCollide-->
 			<gravity>true</gravity>
-			<mu1>500.0</mu1>
-			<mu2>500.0</mu2>
-			<kp>10000000.0</kp>
-			<kd>1.0</kd>
+			<mu1>1.5</mu1>
+			<mu2>1.5</mu2>
+			<kp>1000000.0</kp>
+			<kd>100.0</kd>
 		</gazebo>
 
 		<gazebo reference="${name}_index_knuckle_link">
@@ -162,10 +162,10 @@
 			</sensor>
 			<!--selfCollide>true</selfCollide-->
 			<gravity>true</gravity>
-			<mu1>500.0</mu1>
-			<mu2>500.0</mu2>
-			<kp>10000000.0</kp>
-			<kd>1.0</kd>
+			<mu1>1.5</mu1>
+			<mu2>1.5</mu2>
+			<kp>1000000.0</kp>
+			<kd>100.0</kd>
 		</gazebo>
 
 		<gazebo reference="${name}_index_proximal_link">
@@ -187,10 +187,10 @@
 			</sensor>
 			<!--selfCollide>true</selfCollide-->
 			<gravity>true</gravity>
-			<mu1>500.0</mu1>
-			<mu2>500.0</mu2>
-			<kp>10000000.0</kp>
-			<kd>1.0</kd>
+			<mu1>1.5</mu1>
+			<mu2>1.5</mu2>
+			<kp>1000000.0</kp>
+			<kd>100.0</kd>
 		</gazebo>
 
 		<gazebo reference="${name}_index_middle_link">
@@ -212,10 +212,10 @@
 			</sensor>
 			<!--selfCollide>true</selfCollide-->
 			<gravity>true</gravity>
-			<mu1>500.0</mu1>
-			<mu2>500.0</mu2>
-			<kp>10000000.0</kp>
-			<kd>1.0</kd>
+			<mu1>1.5</mu1>
+			<mu2>1.5</mu2>
+			<kp>1000000.0</kp>
+			<kd>100.0</kd>
 		</gazebo>
 
 		<gazebo reference="${name}_index_distal_link">
@@ -237,10 +237,10 @@
 			</sensor>
 			<!-- selfCollide>true</selfCollide-->
 			<gravity>true</gravity>
-			<mu1>500.0</mu1>
-			<mu2>500.0</mu2>
-			<kp>10000000.0</kp>
-			<kd>1.0</kd>
+			<mu1>1.5</mu1>
+			<mu2>1.5</mu2>
+			<kp>1000000.0</kp>
+			<kd>100.0</kd>
 		</gazebo>
 
 		<gazebo reference="${name}_middle_knuckle_link">
@@ -262,10 +262,10 @@
 			</sensor>
 			<!--selfCollide>true</selfCollide-->
 			<gravity>true</gravity>
-			<mu1>500.0</mu1>
-			<mu2>500.0</mu2>
-			<kp>10000000.0</kp>
-			<kd>1.0</kd>
+			<mu1>1.5</mu1>
+			<mu2>1.5</mu2>
+			<kp>1000000.0</kp>
+			<kd>100.0</kd>
 		</gazebo>
 
 		<gazebo reference="${name}_middle_proximal_link">
@@ -287,10 +287,10 @@
 			</sensor>
 			<!--selfCollide>true</selfCollide-->
 			<gravity>true</gravity>
-			<mu1>500.0</mu1>
-			<mu2>500.0</mu2>
-			<kp>10000000.0</kp>
-			<kd>1.0</kd>
+			<mu1>1.5</mu1>
+			<mu2>1.5</mu2>
+			<kp>1000000.0</kp>
+			<kd>100.0</kd>
 		</gazebo>
 
 		<gazebo reference="${name}_middle_middle_link">
@@ -312,10 +312,10 @@
 			</sensor>
 			<!--selfCollide>true</selfCollide-->
 			<gravity>true</gravity>
-			<mu1>500.0</mu1>
-			<mu2>500.0</mu2>
-			<kp>10000000.0</kp>
-			<kd>1.0</kd>
+			<mu1>1.5</mu1>
+			<mu2>1.5</mu2>
+			<kp>1000000.0</kp>
+			<kd>100.0</kd>
 		</gazebo>
 
 		<gazebo reference="${name}_middle_distal_link">
@@ -337,10 +337,10 @@
 			</sensor>
 			<!-- selfCollide>true</selfCollide-->
 			<gravity>true</gravity>
-			<mu1>500.0</mu1>
-			<mu2>500.0</mu2>
-			<kp>10000000.0</kp>
-			<kd>1.0</kd>
+			<mu1>1.5</mu1>
+			<mu2>1.5</mu2>
+			<kp>1000000.0</kp>
+			<kd>100.0</kd>
 		</gazebo>
 
 		<gazebo reference="${name}_ring_knuckle_link">
@@ -362,10 +362,10 @@
 			</sensor>
 			<!--selfCollide>true</selfCollide-->
 			<gravity>true</gravity>
-			<mu1>500.0</mu1>
-			<mu2>500.0</mu2>
-			<kp>10000000.0</kp>
-			<kd>1.0</kd>
+			<mu1>1.5</mu1>
+			<mu2>1.5</mu2>
+			<kp>1000000.0</kp>
+			<kd>100.0</kd>
 		</gazebo>
 
 		<gazebo reference="${name}_ring_proximal_link">
@@ -387,10 +387,10 @@
 			</sensor>
 			<!--selfCollide>true</selfCollide-->
 			<gravity>true</gravity>
-			<mu1>500.0</mu1>
-			<mu2>500.0</mu2>
-			<kp>10000000.0</kp>
-			<kd>1.0</kd>
+			<mu1>1.5</mu1>
+			<mu2>1.5</mu2>
+			<kp>1000000.0</kp>
+			<kd>100.0</kd>
 		</gazebo>
 
 		<gazebo reference="${name}_ring_middle_link">
@@ -412,10 +412,10 @@
 			</sensor>
 			<!--selfCollide>true</selfCollide-->
 			<gravity>true</gravity>
-			<mu1>500.0</mu1>
-			<mu2>500.0</mu2>
-			<kp>10000000.0</kp>
-			<kd>1.0</kd>
+			<mu1>1.5</mu1>
+			<mu2>1.5</mu2>
+			<kp>1000000.0</kp>
+			<kd>100.0</kd>
 		</gazebo>
 
 		<gazebo reference="${name}_ring_distal_link">
@@ -437,10 +437,10 @@
 			</sensor>
 			<!-- selfCollide>true</selfCollide-->
 			<gravity>true</gravity>
-			<mu1>500.0</mu1>
-			<mu2>500.0</mu2>
-			<kp>10000000.0</kp>
-			<kd>1.0</kd>
+			<mu1>1.5</mu1>
+			<mu2>1.5</mu2>
+			<kp>1000000.0</kp>
+			<kd>100.0</kd>
 		</gazebo>
 
 		<gazebo reference="${name}_little_knuckle_link">
@@ -462,10 +462,10 @@
 			</sensor>
 			<!--selfCollide>true</selfCollide-->
 			<gravity>true</gravity>
-			<mu1>500.0</mu1>
-			<mu2>500.0</mu2>
-			<kp>10000000.0</kp>
-			<kd>1.0</kd>
+			<mu1>1.5</mu1>
+			<mu2>1.5</mu2>
+			<kp>1000000.0</kp>
+			<kd>100.0</kd>
 		</gazebo>
 
 		<gazebo reference="${name}_little_proximal_link">
@@ -487,10 +487,10 @@
 			</sensor>
 			<!--selfCollide>true</selfCollide-->
 			<gravity>true</gravity>
-			<mu1>500.0</mu1>
-			<mu2>500.0</mu2>
-			<kp>10000000.0</kp>
-			<kd>1.0</kd>
+			<mu1>1.5</mu1>
+			<mu2>1.5</mu2>
+			<kp>1000000.0</kp>
+			<kd>100.0</kd>
 		</gazebo>
 
 		<gazebo reference="${name}_little_middle_link">
@@ -512,10 +512,10 @@
 			</sensor>
 			<!--selfCollide>true</selfCollide-->
 			<gravity>true</gravity>
-			<mu1>500.0</mu1>
-			<mu2>500.0</mu2>
-			<kp>10000000.0</kp>
-			<kd>1.0</kd>
+			<mu1>1.5</mu1>
+			<mu2>1.5</mu2>
+			<kp>1000000.0</kp>
+			<kd>100.0</kd>
 		</gazebo>
 
 		<gazebo reference="${name}_little_distal_link">
@@ -537,10 +537,10 @@
 			</sensor>
 			<!-- selfCollide>true</selfCollide-->
 			<gravity>true</gravity>
-			<mu1>500.0</mu1>
-			<mu2>500.0</mu2>
-			<kp>10000000.0</kp>
-			<kd>1.0</kd>
+			<mu1>1.5</mu1>
+			<mu2>1.5</mu2>
+			<kp>1000000.0</kp>
+			<kd>100.0</kd>
 		</gazebo>
 
 		<!-- JOINTS -->
