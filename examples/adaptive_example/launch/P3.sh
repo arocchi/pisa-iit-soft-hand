@@ -5,11 +5,11 @@ sleep 4
 ./close_hand.sh 0.9
 sleep 5
 echo "Finished closing"
-rostopic echo -n 1 /clock > P3_timing.txt
+rostopic echo -n 1 /clock > timing.txt
 sleep 5
 echo "Starting lift"
-rostopic echo -n 1 /clock >> P3_timing.txt
+rostopic echo -n 1 /clock >> timing.txt
 ./move_hand_P1_up.sh
 read
 echo "Saving time"
-rostopic echo -n 1 /clock >> P3_timing.txt
+rostopic echo -n 1 /clock >> timing.txt
