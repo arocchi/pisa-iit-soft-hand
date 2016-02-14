@@ -11,7 +11,7 @@ rostopic pub --once /tf_static tf/tfMessage "transforms:
     translation:
       x: -0.095
       y: -0.165
-      z: 0.18
+      z: 0.19
     rotation:
       x: -0.3697428141890589
       y: 0.6025857997014756
