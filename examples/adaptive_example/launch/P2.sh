@@ -13,6 +13,7 @@ rostopic echo -n 1 /clock >> timing.txt
 ./move_hand_P2_up.py
 echo "Finished lift"
 rostopic echo -n 1 /clock >> timing.txt
-read
-echo "Saving time"
+./sleep.py 5
+echo "Saving time before opening"
 rostopic echo -n 1 /clock >> timing.txt
+./open_hand.sh
