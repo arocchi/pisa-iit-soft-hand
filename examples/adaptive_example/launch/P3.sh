@@ -11,7 +11,7 @@
 ./sleep.py 3
 echo "Finished closing"
 rostopic echo -n 1 /clock > timing.txt
-./sleep.py 3
+./sleep.py 5
 echo "Starting lift"
 rostopic echo -n 1 /clock >> timing.txt
 ./move_hand_P3_up.py
