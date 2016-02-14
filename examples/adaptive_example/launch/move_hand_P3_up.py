@@ -9,13 +9,13 @@ if __name__ == '__main__':
     # publish to cmd_vel
     p = rospy.Publisher('/tf_static', tfMessage, queue_size=10)
 
-    x = -0.135
-    y = -0.165
-    z = 0.205
-    qx = -0.3235158525735361
-    qy = 0.6285744890169797
-    qz = 0.323258330753712
-    qw = 0.6290752391320014
+    x = -0.24
+    y = -0.17
+    z = 0.11
+    qx = 0.2886382139493777
+    qy = 0.6452296092959807
+    qz = 0.482248334565073
+    qw = 0.517497127088724
 
     for i in xrange(146):  # to 0.4
         # setting up trapezoidal velocity profile
