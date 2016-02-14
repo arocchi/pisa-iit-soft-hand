@@ -1,16 +1,16 @@
 clock: 
-  secs: 31
-  nsecs: 17000000
+  secs: 30
+  nsecs: 389000000
 ---
 clock: 
-  secs: 34
-  nsecs: 513000000
+  secs: 33
+  nsecs: 944000000
 ---
 clock: 
   secs: 65
-  nsecs: 852000000
+  nsecs: 389000000
 ---
 clock: 
   secs: 71
-  nsecs: 650000000
+  nsecs: 33000000
 ---
