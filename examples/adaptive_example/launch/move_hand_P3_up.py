@@ -9,12 +9,12 @@ if __name__ == '__main__':
     # publish to cmd_vel
     p = rospy.Publisher('/tf_static', tfMessage, queue_size=10)
 
-    x = -0.28
+    x = -0.245
     y = -0.085
-    z = 0.13
+    z = 0.12
     qx = 0.49999984146591736
     qy = 0.4996018366446334
-    qz = 0.323258330753712
+    qz = 0.49999984146591736
     qw = 0.5003981633553666
 
     for i in xrange(146):  # to 0.4

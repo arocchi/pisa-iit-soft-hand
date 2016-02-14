@@ -3,7 +3,7 @@
 ./sleep.py 5
 ./move_hand_P3.sh
 ./sleep.py 1
-./close_hand.sh 0.47
+./close_hand.sh 0.3
 ./sleep.py 3
 echo "Finished closing"
 rostopic echo -n 1 /clock > timing.txt

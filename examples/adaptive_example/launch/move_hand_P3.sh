@@ -9,9 +9,9 @@ rostopic pub --once /tf_static tf/tfMessage "transforms:
   child_frame_id: 'box_desired'
   transform:
     translation:
-      x: -0.28
+      x: -0.245
       y: -0.085
-      z: 0.13
+      z: 0.12
     rotation:
       x: 0.49999984146591736
       y: 0.4996018366446334
