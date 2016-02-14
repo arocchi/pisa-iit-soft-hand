@@ -1,16 +1,18 @@
 ./move_hand_P2_up.sh
 ./open_hand.sh
-sleep 10
+./sleep.py 5
 ./move_hand_P2.sh
-sleep 1
-./close_hand.sh 0.5
-sleep 4
+./sleep.py 1
+./close_hand.sh 0.47
+./sleep.py 3
 echo "Finished closing"
 rostopic echo -n 1 /clock > timing.txt
-sleep 5
+./sleep.py 3
 echo "Starting lift"
 rostopic echo -n 1 /clock >> timing.txt
-./move_hand_P2_up.sh
+./move_hand_P2_up.py
+echo "Finished lift"
+rostopic echo -n 1 /clock >> timing.txt
 read
 echo "Saving time"
 rostopic echo -n 1 /clock >> timing.txt
