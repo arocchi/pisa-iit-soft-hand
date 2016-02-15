@@ -7,4 +7,4 @@ P2_opcode_t1 and P2_opcode_t3 drop during lift (like for the P1_opcode, there is
 
 P2_blem_t2 and  P2_opcode_t2 are all recorded with automatic object dropping routine.
 Same for P1_{blem,opcode}_t5, and P3_blem, P3_opcode
-P3_blem drop during lift
+P3_* drop during lift

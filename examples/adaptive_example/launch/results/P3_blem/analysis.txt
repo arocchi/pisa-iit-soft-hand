@@ -1,0 +1,11 @@
+stability-floor 41-46
+# contact variation: 0.661729803442
+Contact force variation: 0.417105957227
+Contact point variation: 0.000960937510402
+Contact normal variation: 0.0486815155675
+
+from grasp to drop 41-56
+# contact variation: 1.43072726864
+Contact force variation: 0.44660390371
+Contact point variation: 0.00516141400431
+Contact normal variation: 0.117103864265

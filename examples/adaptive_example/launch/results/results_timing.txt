@@ -1,0 +1,7 @@
+exp      BLEM       BLEM_t1    BLEM_t2   BLEM_t3   BLEM_t4   OPCODE     OPCODE_t1  OPCODE_t2  OPCODE_t3  OPCODE_t4
+P1                             0.00242   0.00251   0.00244                         0.00148    0.00133   +0.00158
+P2       0.00208    0.00256    0.00222                       0.00148   *0.00146    0.00154   *0.00156
+P3      *0.00243                                            *0.00115   *0.00116
+
+* = falls
++ = best exp in set (for P1)

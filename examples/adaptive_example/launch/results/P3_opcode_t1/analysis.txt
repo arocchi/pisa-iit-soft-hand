@@ -1,0 +1,5 @@
+stability-floor 45-50
+# contact variation: 0.444266382059
+Contact force variation: 0.274442540533
+Contact point variation: 0.000623216765817
+Contact normal variation: 0.00344420775034
